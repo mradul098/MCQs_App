@@ -20,7 +20,7 @@ app.use(express.json({ limit: '5mb' }));
 
 
 const question_bank = new Datastore('question_bank.json');
-const users_score = new Datastore('users_score.json');
+const users_score   = new Datastore('users_score.json');
 
 question_bank.loadDatabase();
 users_score.loadDatabase();
@@ -30,7 +30,7 @@ function randomize(data1) {
 
     let questions = [];
     let i = 0;
-    let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+    let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];//, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
 
     while (i < 10) {
         let random = Math.floor(Math.random() * num.length)
@@ -52,7 +52,7 @@ async function login(emailId) {
 }
 
 
-app.get('/admin-login', (req, res) => {
+app.get('/admin', (req, res) => {
     res.sendFile(pathADMIN);
 });
 
