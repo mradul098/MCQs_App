@@ -1,112 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Slab:wght@300&display=swap');
-.img{
-    width: 50vw;
-    height: 73vh;
-    margin-left: 13vw;
-    background-image: url("https://thumbs.dreamstime.com/b/admin-office-binder-wooden-desk-table-colored-pencil-pencils-pen-notebook-paper-79046621.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;700&family=Open+Sans:wght@400;600&family=Oswald:wght@500&family=Roboto:wght@300;400;500;600;900&display=swap');
+.img {
+    width: 36vw;
+    height: 58vh;
+    margin-left: 10vw;
+    padding: 8px;
+    background-image: url(https://thumbs.dreamstime.com/b/admin-office-binder-wooden-desk-table-colored-pencil-pencils-pen-notebook-paper-79046621.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 4vw;
+    margin-top: 8vw;
+    margin-top: 8vw;
 }
-body{
-      display:flex;
-      justify-content: space-between;
-      background: cornflowerblue;
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background: #9147FF;
 }
-.Feadback{
+
+.Feadback {
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    font-family: 'Merienda','Times New Roman', Times, serif;
-    width: 49vw;
-    margin-top: 7vw;
-    margin-right: 5vw;
+    border: none;
+    background-color: white;
+    font-family: 'Merienda', 'Times New Roman', Times, serif;
+    width: 40vw;
+    height: 58vh;
+    margin-top: 8vw;
+    margin-right: 7vw;
+    padding: 5px;
 }
+
 form h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     padding: 3.5vw;
-        padding-left: 3.5vw;
     margin: auto;
     padding-left: 6vw;
-    font-size: 49px;
+    font-size: 2.4rem;
+    color: #9147FF;
 }
-.email{
-    display:flex;
+
+.admin_email {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:1vw;
+    padding: 1vw;
 }
-.email p{
-    margin: 1vh;
-    font-size:32px;
-}
-input[type="text"] , input[type="email"],input[type="int"]{
+
+input[type="text"], input[type="email"], input[type="int"] {
     margin: 2vh;
     height: 2vw;
-    width:20vw;
+    width: 20vw;
     padding: 1vh;
     font-size: 30px;
-   
+    border: 2px solid #e6dada;
+    width: 60%;
 }
-.button{
+
+.email label {
+    color: #9147FF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 0.89rem;
+
+}
+
+.button {
     margin: 1em;
-    padding: 1vw;
-    background-color: rgb(97, 91, 91);
+    padding: 8px;
+    background-color: #9147FF;
+    font-family: 'Oswald', sans-serif;
     color: white;
-    border: 1px ;
-    border-radius: 10px;
-    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    width: 70%;
+    margin-top: 2rem;
+    ;
+    margin-bottom: 3.8rem;
+    cursor: pointer;
 }
-.function{
-    display:flex;
+
+.function {
+    display: flex;
     justify-content: center;
 }
 
-
-
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 1130px) {
-
-
-   form h2 {
+    form h2 {
         font-size: 30px;
     }
-
     #email {
         font-size: 25px;
     }
-
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 710px) {
-
-#body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img {
-    width: 80%;
-    margin: 5%;
-}
-.Feadback {
-    margin: 5%;
-}
-
-form h2 {
-    font-size: 20px;
-}
-
-#email {
-    font-size: 15px;
-}
-
-input[type="email"] {
-    margin-top: 10px;
-    height: 5px;
-    width: 75px;
-}
+    #body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img {
+        width: 80%;
+        margin: 5%;
+    }
+    .Feadback {
+        margin: 5%;
+    }
+    form h2 {
+        font-size: 20px;
+    }
+    #email {
+        font-size: 15px;
+    }
+    input[type="email"] {
+        margin-top: 10px;
+        height: 5px;
+        width: 75px;
+    }
 }
