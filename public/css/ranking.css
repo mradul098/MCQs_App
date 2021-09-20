@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=Mirza:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans Condensed',
+        sans-serif;
+    font-family: 'Mirza',
+        cursive;
+}
+body {
+    background: url(https://img.freepik.com/free-photo/background-texture-printed-question-marks_124595-213.jpg?size=626&ext=jpg);
+
+    width: 100%;
+
+    height: 100%;
+}
+
+#container {
+
+   
+
+   
+    text-align: center;
+}
+
+#table-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    font-size: 50px;
+}
+
+#ranking-table{
+    width: 70%;
+}

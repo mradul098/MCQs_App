@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Slab:wght@300&display=swap');
+.img{
+    width: 50vw;
+    height: 73vh;
+    margin-left: 13vw;
+    background-image: url("https://thumbs.dreamstime.com/b/admin-office-binder-wooden-desk-table-colored-pencil-pencils-pen-notebook-paper-79046621.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4vw;
+}
+body{
+      display:flex;
+      justify-content: space-between;
+      background: cornflowerblue;
+}
+.Feadback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Merienda','Times New Roman', Times, serif;
+    width: 49vw;
+    margin-top: 7vw;
+    margin-right: 5vw;
+}
+form h2 {
+    padding: 3.5vw;
+        padding-left: 3.5vw;
+    margin: auto;
+    padding-left: 6vw;
+    font-size: 49px;
+}
+.email{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1vw;
+}
+.email p{
+    margin: 1vh;
+    font-size:32px;
+}
+input[type="text"] , input[type="email"],input[type="int"]{
+    margin: 2vh;
+    height: 2vw;
+    width:20vw;
+    padding: 1vh;
+    font-size: 30px;
+   
+}
+.button{
+    margin: 1em;
+    padding: 1vw;
+    background-color: rgb(97, 91, 91);
+    color: white;
+    border: 1px ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.function{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1130px) {
+
+
+   form h2 {
+        font-size: 30px;
+    }
+
+    #email {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 710px) {
+
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 80%;
+    margin: 5%;
+}
+.Feadback {
+    margin: 5%;
+}
+
+form h2 {
+    font-size: 20px;
+}
+
+#email {
+    font-size: 15px;
+}
+
+input[type="email"] {
+    margin-top: 10px;
+    height: 5px;
+    width: 75px;
+}
+}
