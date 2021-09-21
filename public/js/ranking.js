@@ -76,10 +76,11 @@ function show_table(json) {
 }
 
 function compare(a, b) {
-    if (a.score > b.score) {
+    console.log(parseFloat(a.score)>parseFloat(b.score),"a.score=",a.score,"b.score=",b.score);
+    if (parseFloat(a.score) > parseFloat(b.score)) {
         return -1;
     }
-    if (a.score < b.score) {
+    if (parseFloat(a.score) < parseFloat(b.score)) {
         return 1;
     }
     return 0;

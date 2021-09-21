@@ -1,16 +1,23 @@
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-    handleLoginSubmit(e);
-});
 
 
-function handleLoginSubmit(event) {
+document.getElementById("adminbutton").addEventListener("submit",function(e){
+    handleadminbutton(e);
+})
 
-    
-     var element = document.getElementById("contactForm");
-    var name = element.name.value;
-    var email = element.email.value;
+function handleadminbutton(event){
+    console.log("hioa");
     event.preventDefault();
-    sessionStorage.setItem("name", name);
-    sessionStorage.setItem("email", email);
-    window.location.href = "instructions.html";
+    window.location.href = "/adminLogin.html";
 }
+document.getElementById("start-test").addEventListener("submit",function(e){
+    handlesubmitteststart(e);
+})
+
+function handlesubmitteststart(event){
+    let testid=document.getElementById("testid").value;
+    console.log("hioa");
+    event.preventDefault();
+    window.location.href = "/teststart.html?testid="+testid;
+}
+
+

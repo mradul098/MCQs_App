@@ -17,7 +17,7 @@
                 <ol>
                     <li>Total duration of test is 180 seconds.</li>
                     <li>Test comprise of MCQs only.</li>
-                    <li>There will be only 10 questions.</li>
+                    <li id="eachque">There wnill be only 10 questions.</li>
                     <li>You cannot go to the previous question once attempted.</li>
                     <li>Once the time is finished, test will be submitted automatically.</li>
                     <li>Each question is of 1 Mark.</li>
@@ -27,7 +27,8 @@
                     <li>You can see your score at the time of submission.</li>
                 </ol>
                 <div class="wish-text">
-                    <button><a href="assessment-page.html">Start Test</a></button>
+                    
+                    <button id="starttest">Start Test</button>
                 </div>
             </div>
             <div class="section2">
@@ -36,6 +37,20 @@
 
         </div>
     </div>
+    <script>
+        
+        var queryString = decodeURIComponent(window.location.search); //parsing 
+        queryString = queryString.substring(1); 
+        document.getElementById("eachque").innerHTML="There will be only "+queryString.split("&")[1].substr(1,queryString.split("&")[1].length)+" questions."
+        document.getElementById("starttest").onclick=function(){
+
+
+        window.location.href = "assessment-page.html?"+queryString;
+
+            // window.location.href="assessment-page.html?fd=fd";
+        }
+    </script>
+
 </body>
 
 </html>
