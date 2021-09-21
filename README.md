@@ -35,7 +35,7 @@ Admin has following rights :
 
 <hr>
 
-#### <u>Collaborators</u>
+#### <u>Contributors</u>
 >[Mayank Choudhary](https://github.com/Mayank151c) <br>
 >[Mradul Agrawal](https://github.com/mradul098)    <br>
 >[Sweeti Gupta](https://github.com/Sweeti-Gupta)   <br>
