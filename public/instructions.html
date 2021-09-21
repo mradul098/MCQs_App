@@ -15,7 +15,7 @@
             <div class="section1">
                 <p id="heading">Instructions for Online Test</p>
                 <ol>
-                    <li>Total duration of test is 180 seconds.</li>
+                    <li id="timelimit">Total duration of test is 180 seconds.</li>
                     <li>Test comprise of MCQs only.</li>
                     <li id="eachque">There will be only 10 questions.</li>
                     <li>You cannot go to the previous question once attempted.</li>
@@ -41,7 +41,8 @@
         
         var queryString = decodeURIComponent(window.location.search); //parsing 
         queryString = queryString.substring(1); 
-        document.getElementById("eachque").innerHTML="There will be only "+queryString.split("&")[1].substr(1,queryString.split("&")[1].length)+" questions."
+        document.getElementById("eachque").innerHTML="There will be only "+queryString.split("&")[1].substr(1,queryString.split("&")[1].length)+" questions.";
+        document.getElementById("timelimit").innerHTML="Total duration of this test is "+queryString.split("&")[3].substr(1,queryString.split("&")[3].length);
         document.getElementById("starttest").onclick=function(){
 
 

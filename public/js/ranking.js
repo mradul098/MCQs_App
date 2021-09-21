@@ -76,11 +76,16 @@ function show_table(json) {
 }
 
 function compare(a, b) {
-    console.log(parseFloat(a.score)>parseFloat(b.score),"a.score=",a.score,"b.score=",b.score);
-    if (parseFloat(a.score) > parseFloat(b.score)) {
+    let nra=a.score.split("/")[0];
+    let dra=a.score.split("/")[1];
+    let nrb=b.score.split("/")[0];
+    let drb=b.score.split("/")[1];
+
+    console.log(nra/drb,nrb/drb);
+    if (nra/dra > nrb/drb) {
         return -1;
     }
-    if (parseFloat(a.score) < parseFloat(b.score)) {
+    else{
         return 1;
     }
     return 0;
