@@ -1,25 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap');
 .img{
-    width: 50vw;
-    height: 73vh;
-    margin-left: 13vw;
+    width: 40vw;
+    height: 65vh;
+    margin-left: 8vw;
     background-image: url("https://thumbs.dreamstime.com/b/admin-office-binder-wooden-desk-table-colored-pencil-pencils-pen-notebook-paper-79046621.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 4vw;
+    margin-top: 7vw;
 }
 body{
       display:flex;
       justify-content: space-between;
-      background: cornflowerblue;
+      background: #9147FF;
 }
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif; */
 .Feadback{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+   background-color: white;
+   color: #9147FF;
     font-family: 'Merienda','Times New Roman', Times, serif;
-    width: 49vw;
+    width: 40vw;
+    /* height  */
     margin-top: 7vw;
     margin-right: 5vw;
 }
@@ -51,12 +55,14 @@ input[type="text"] , input[type="email"],input[type="int"]{
 }
 .button{
     margin: 1em;
-    padding: 1vw;
-    background-color: rgb(97, 91, 91);
+    padding:10px;
+    background-color:#9147FF;
+    width:22vw;
     color: white;
     border: 1px ;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 6px;
+    font-size:1.23rem;
+    cursor: pointer;
 }
 .function{
     display:flex;
