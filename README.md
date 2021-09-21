@@ -3,7 +3,7 @@
 ## <div align=center><u>MCQs-App</u><br>Walkover-final-assignment</div>
 
 #### <u>Intruduction</u>
-This is a web application is made on top of Node.js and Express.js which provide you a platform to host the Multiple choice questions (MCQs) based online test.<br><br>
+This is a web application which is made on top of Node.js and Express.js which provide you a platform to host the Multiple choice questions (MCQs) based online test.<br><br>
  Application provides you to login as a `normal user` or as a `admin`
 > ##### Normal user : `The one who will be giving the online test.` <br> Admin user &nbsp;&nbsp;: `The examiner or the one who wants to host the test.` <br>
 
