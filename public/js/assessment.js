@@ -1,6 +1,16 @@
 var currentQuestion = 0;
 var score = 0;
-var totalQuestions = 10;
+
+var queryString = decodeURIComponent(window.location.search); //parsing 
+queryString = queryString.substring(1).substr(7,queryString.substr(1).length); 
+console.log(queryString);
+var string2=queryString.split("&");
+var limit = string2[1].substr(1,string2[2].length);
+console.log(limit);
+
+//    window.location.href = "assessment-page.html?"+queryString;
+
+var totalQuestions = limit;
 
 var container = document.getElementById("quizContainer");
 var questionEl = document.getElementById("question");
@@ -12,11 +22,18 @@ var opt4 = document.getElementById("opt4");
 var nextButton = document.getElementById("nextButton");
 var resultCont = document.getElementById("result");
 
+var queryString = decodeURIComponent(window.location.search); //parsing 
+    queryString = queryString.substring(1);  //querystring: testid=898
+    // console.log("querystring",queryString.substr(7,queryString.length));
+    var testid=queryString.substr(7,queryString.length);
+
+   
+
 
 let questions;
 
 async function data_request() {
-    const response = await fetch('/api');
+    const response = await fetch('/api/'+testid);
     let json = await response.json();
     set_question(json);
 
@@ -77,7 +94,7 @@ function loadNextQuestion() {
         nextButton.textContent = "Submit";
         let tag = document.createElement("a");
         tag.id = 'submit';
-        tag.href = "score.html"
+        tag.href = "score.html?u"+limit;
         let link = document.createTextNode("Submit");
         nextButton.textContent = "";
         // Append the text node to anchor element.

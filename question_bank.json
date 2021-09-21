@@ -1,21 +1,87 @@
+{"question":"ques1","options":["While","f","f","hd"],"correctIndex":"1","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"0BmV4Pq5PSVIbzgZ"}
 {"question":"The term \"NTFS\" refers to which one of the following?","options":["New Technology File System","New Tree File System","New Table type File System","Both A and C"],"correctIndex":"1","_id":"0cqdVD6vwd6HYOKO"}
+{"question":"Which of the following is not a valid loopd","options":["fd",null,null,null],"correctIndex":"6","user_ques":"3","uid":"id1632201113092&u1&q3","_id":"1NJQ0ZUEO4zrBcJZ"}
 {"question":"Cloud computing is a kind of abstraction which is based on the notion of combining physical resources and represents them as _______resources to users.","options":["real","cloud","virtual","none of the above"],"correctIndex":"3","_id":"2HdOV1BTHaOB7Awh"}
 {"question":"Scopes are access controls that are applied to ______?","options":["Storage buckets","VM instances","Persistent disks","Subnets"],"correctIndex":"2","_id":"2PkulndP7ydSCbyW"}
+{"question":"Which of the following is not a valid operator","options":["While",null,null,null],"correctIndex":"3","user_ques":"2","uid":"id1632201903523&u1&q2","_id":"2lmBi6aMTtPLivCJ"}
+{"options":["While","f","f","hd"],"correctIndex":"2","_id":"3EuyLjLi7T5p7u9L"}
+{"question":"Which of the following is not a valid loopd","options":["4",null,null,null],"correctIndex":"5","user_ques":"3","uid":"id1632201745159&u1&q3","_id":"7Ips2LReelvqBuFU"}
+{"question":"r","options":["While","f","f","hd"],"correctIndex":"4","user_ques":"2","uid":"id1632198335462&u2&q4","_id":"7NdFtQ7KGJQRezxc"}
 {"question":"The term \"FAT\" is stands for_____","options":["File Allocation Tree","File Allocation Table","File Allocation Graph","All of the above"],"correctIndex":"2","_id":"7hOk8ShJyvIPFfHS"}
+{"question":"Which of the following is not a valid loop","options":["While","f","f","hd"],"correctIndex":"4","user_ques":"4","uid":"id1632216242884&u2&q4","_id":"8DqsBTW6KW0nAq1q"}
+{"question":"","options":["While","f","f","hd"],"correctIndex":"1","_id":"8Er6ZE3Edu6uyuOu"}
+{"question":"Which of the following is not a valid loopd","options":["While","f","f","h"],"correctIndex":"1","user_ques":"2","uid":"id1632201984082&u2&q2","_id":"8mr8K2o9s0gwQkPf"}
+{"question":"e","options":["f",null,null,null],"correctIndex":"4","user_ques":"2","uid":"id1632202142098&u1&q2","_id":"99JtCRH1imQb7oUQ"}
 {"question":"Which one of the following options can be considered as the Cloud?","options":["Hadoop","Intranet","Web Applications","All of the mentioned"],"correctIndex":"1","_id":"ALQISEnGtD4h7unh"}
+{"options":["f",null,null,null],"correctIndex":"4","_id":"BGgjKpbJR5gOJYup"}
+{"question":"Which of the following is not a valid operator","options":["While",null,null,null],"correctIndex":"4","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"DCfEDecS7FiJBHbA"}
+{"question":"Which of the following is not a valid operator","options":["While","f","f","hd"],"correctIndex":"4","user_ques":"4","uid":"id1632216242884&u2&q4","_id":"DN88PyHTTDTu2Zm9"}
+{"question":"wues3","options":["While",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"Gal5PtHbWUBUGtt9"}
 {"question":"What type of computing technology refers to services and applications that typically run on a distributed network through virtualized resources?","options":["Distributed Computing","Cloud Computing","Soft Computing","Parallel Computing"],"correctIndex":"2","_id":"IHOYT0OO2eGHQRXt"}
 {"question":"What is the full form of GIT?","options":["Gastro Intestional Track","Gastro International Track","Global information Tracker","None of these"],"correctIndex":"3","_id":"IaskPTdSQWNsShEG"}
+{"question":"e","options":["d",null,null,null],"correctIndex":"6","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"IpLGTneuYkSX6KRs"}
+{"question":"ques4","options":["1","2","3","4"],"correctIndex":"4","user_ques":"5","uid":"id1632217074466&u2&q5","_id":"Jx4DTAy4NTiciSkV"}
 {"question":"The term \"TCL\" stands for_____.","options":["Ternary Control Language","Transmission Control Language","Transaction Central Language","Transaction Control Language"],"correctIndex":"4","_id":"KBi65ep1t76sK0CK"}
+{"question":"f","options":["5",null,null,null],"correctIndex":"4","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"KeiJHtzsGjyxzjbQ"}
+{"options":["While","f","f","hd"],"correctIndex":"4","_id":"LKJQ3Mi1t6zI4nuf"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbi8dmQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMd3QMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdaQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdhQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdlQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdmQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdoQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdsQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdtQMCjh"}
+{"question":"ques4","options":["f",null,null,null],"correctIndex":"4","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"LROaSGbiMdyQMCjh"}
 {"question":"What is the use of ‘git log’?","options":["by author","date","content","All of the above"],"correctIndex":"1","_id":"LyUBx0VM3b1ecOOT"}
+{"question":"Which of the following is not a valid operator","options":["While","f","f","hd"],"correctIndex":"4","_id":"NYQwd8I4GL8xvMZ2"}
 {"question":"What block size used by all block storage systems?","options":["4KB","8KB","16KB","Block size can vary"],"correctIndex":"4","_id":"PPrMoNcCYPeKnwc6"}
+{"question":"Which of the following is not a valid operator","options":["fd",null,null,null],"correctIndex":"3","user_ques":"21","uid":"id1632201827424&u1&q21","_id":"QFP3XQDW9G0GmURk"}
+{"question":"","options":["5",null,null,null],"correctIndex":"5","_id":"RV6OBRB1hOONtvew"}
+{"options":["4",null,null,null],"correctIndex":"4","_id":"RWhPtjdIcTbQxwlZ"}
 {"question":"What is an alternative to merging in git?","options":["Basing","Rebasing","Both 1 and 2","None of these"],"correctIndex":"2","_id":"Rc2K9zceVO0qIR2p"}
 {"question":"In Google cloud platform, pricing of a VM can be vary based on _____","options":["server location","machine type","Type and size of storage disk","All of the above"],"correctIndex":"4","_id":"SWKLBhPuKrff5aQ5"}
+{"options":["2",null,null,null],"correctIndex":"3","_id":"SlwGIpBHykQgJ8fb"}
+{"question":"Which of the following is not a valid loopd","options":["While","f","f","h"],"correctIndex":"4","user_ques":"4","uid":"id1632202079412&u1&q4","_id":"TAMoX9pcYO2mKs6k"}
+{"question":"","options":["4",null,null,null],"correctIndex":"3","_id":"U9qp5Q0BNY7yNugh"}
+{"question":"r","options":["5",null,null,null],"correctIndex":"3","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"UJc1yp5BS4dC3Qvp"}
+{"question":"ques1","options":["1","2","4","3"],"correctIndex":"3","user_ques":"5","uid":"id1632217074466&u2&q5","_id":"V39Dn2tMpa8ByUVi"}
+{"question":"d","options":["5",null,null,null],"correctIndex":"5","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"W1TndUvVl1kgB8x4"}
 {"question":"Cloud Vision is a ____","options":["service based on 3 servers","service based on single server","VM","serverless service"],"correctIndex":"4","_id":"WITT7wAuLmcMyhNb"}
+{"question":"Which of the following is not a valid loopd","options":["3","4","3","2"],"correctIndex":"2","user_ques":"4","uid":"id1632216242884&u2&q4","_id":"WIwWpq5pwypeJoEQ"}
+{"question":"ques2","options":["1","3","2","1"],"correctIndex":"2","user_ques":"5","uid":"id1632217074466&u2&q5","_id":"WNE3V7ong2ThejWQ"}
+{"question":"ques3","options":["4","3","1","2"],"correctIndex":"3","user_ques":"5","uid":"id1632217074466&u2&q5","_id":"Y33HIxS2tu0BToZn"}
+{"question":"d","options":["5",null,null,null],"correctIndex":"5","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"YxlDJQkfQVLl4NCy"}
+{"question":"Which of the following is not a valid loop","options":["4",null,null,null],"correctIndex":"3","user_ques":"4","uid":"id1632202079412&u1&q4","_id":"ccCY5g3zcRkp1qh1"}
 {"question":"To which of the following the term \"DBA\" referred?","options":["Data Bank Administrator","Database Administrator","Data Administrator","None of the above"],"correctIndex":"2","_id":"daGYhFYvmkilDlMe"}
+{"options":["fd",null,null,null],"correctIndex":"3","_id":"e1MkmL8FWhJD02wr"}
 {"question":"Which member of the superclass is never accessible to the subclass?","options":["Public member","Protected member","Private member","All of the mentioned"],"correctIndex":"3","_id":"gqE7ga5jH6wMxXJG"}
 {"question":"Which of the following is not an OOPS concept?","options":["Encapsulation","Polymorphism","Exception","Abstraction"],"correctIndex":"3","_id":"h9qdbqiiKo4ho7d6"}
 {"question":"In general, a file is basically a collection of all related______.","options":["Rows & Columns","Fields","Database","Records"],"correctIndex":"4","_id":"hQ0bQziDkNruHUTh"}
+{"question":"Which of the following is not a valid loop","options":["4",null,null,null],"correctIndex":"2","user_ques":"5","uid":"id1632200981795&u3&q5","_id":"hw9dnlLFP5RSHxmp"}
+{"options":["fd",null,null,null],"correctIndex":"4","_id":"iOR0PMhu9TlqS224"}
+{"question":"Which of the following is not a valid loopd","options":["5",null,null,null],"correctIndex":"1","user_ques":"5","uid":"id1632200981795&u3&q5","_id":"jzwyCBh5uiA2VNSu"}
+{"options":["While",null,null,null],"correctIndex":"3","_id":"klcvu0UIIiVkNFKc"}
+{"question":"Which of the following is not a valid operator","options":["fd",null,null,null],"correctIndex":"4","user_ques":"3","uid":"id1632201113092&u1&q3","_id":"mKN5thUAhRpWYcqI"}
+{"options":["4",null,null,null],"correctIndex":"2","_id":"nxwG4hs8XvYrKkGu"}
+{"options":["e",null,null,null],"correctIndex":"3","_id":"q24tQkI3NLbscDwe"}
 {"question":"What is the extra feature in classes which was not in the structures?","options":["Member functions","Data members","Public access specifier","Static Data allowed"],"correctIndex":"1","_id":"qsfp8VQYG4Or9gNs"}
 {"question":"Which of the following services are serverless?","options":["Cloud Storage","App Engine","Cloud Functions","All of the above"],"correctIndex":"4","_id":"r5r3KyewIoUkuyzW"}
+{"question":"Which of the following is not a valid loopd","options":["While",null,null,null],"correctIndex":"2","user_ques":"5","uid":"id1632201774072&u1&q5","_id":"ry9URH8oe6xncDE3"}
+{"question":"ques2","options":["3",null,null,null],"correctIndex":"1","user_ques":"4","uid":"id1632204251650&u2&q4","_id":"tFJaE6qv00m4y02c"}
+{"question":"e","options":["d",null,null,null],"correctIndex":"5","user_ques":"3","uid":"id1632201613414&u1&q3","_id":"tneEvoNllj0kClgu"}
+{"options":["4",null,null,null],"correctIndex":"2","_id":"vRTVjBLTWeOUlzY5"}
+{"question":"3,2","options":["32","1","4","3"],"correctIndex":"1","user_ques":"5","uid":"id1632217074466&u2&q5","_id":"wdW6aW42LLhTSdPb"}
+{"question":"Which of the following is not a valid operator","options":["fd",null,null,null],"correctIndex":"1","user_ques":"4","uid":"id1632216242884&u2&q4","_id":"xCMjR3ZJbwqhTfbK"}
+{"options":["While","f","f","hd"],"correctIndex":"4","_id":"xbs3j8HPn9E6o3Hn"}
 {"question":"Which one of the following refers to the \"data about data\"?","options":["Directory","Sub Data","Warehouse","Meta Data"],"correctIndex":"4","_id":"xdrjQGzGWbZC2LZH"}
+{"question":"Which of the following is not a valid loop","options":["While",null,null,null],"correctIndex":"3","user_ques":"2","uid":"id1632202142098&u1&q2","_id":"xjG4ERehCbjpKfno"}
 {"question":"The most fundamental unit of cloud computing is?","options":["Physical server","Block","VM","Subnet"],"correctIndex":"3","_id":"xwZeaPp1kPVY3ebA"}
+{"options":["While",null,null,null],"correctIndex":"5","_id":"yRDbFw6Ni9qyECA5"}
+{"options":["While","f","f","h"],"correctIndex":"4","_id":"z7n4fKCBeyoCdQLU"}
+{"question":"ques1","options":["While","f","f","hd"],"correctIndex":"1","user_ques":"5","uid":"id1632220931966&u2&q5","_id":"fRu6Qe1mtRrUAGPE"}
+{"question":"Which of the following is not a valid loopd","options":["While","f","f","hd"],"correctIndex":"1","user_ques":"5","uid":"id1632220931966&u2&q5","_id":"E2KCcCt5USRSK84l"}
+{"question":"Which of the following is not a valid operator","options":["3","f","fg","s"],"correctIndex":"3","user_ques":"5","uid":"id1632220931966&u2&q5","_id":"nFE7crTNJNPyf0MV"}
+{"question":"Which of the following is not a valid loop","options":["1","2","3","4"],"correctIndex":"1","user_ques":"5","uid":"id1632220931966&u2&q5","_id":"OnrJygIlwvLWjwVl"}
+{"question":"r","options":["we","vrf","sw","r"],"correctIndex":"3","user_ques":"5","uid":"id1632220931966&u2&q5","_id":"eeahdlN8Ulybga7X"}

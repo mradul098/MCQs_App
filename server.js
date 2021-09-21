@@ -30,9 +30,19 @@ function randomize(data1) {
 
     let questions = [];
     let i = 0;
-    let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];//, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+    let limit=data1[0].uid;
+    var queries = limit.split("&"); 
 
-    while (i < 10) {
+    let number_of_ques=queries[1].substr(1,queries[1].length);
+
+    console.log(queries);
+    let num=[];
+    for (var ij = 1; ij <= number_of_ques; ij++) {
+        num.push(ij);
+     }
+    // let num = range(0,10)//, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+
+    while (i < number_of_ques ) {
         let random = Math.floor(Math.random() * num.length)
         let indx = num.splice(random, 1);
         questions.push(data1[indx[0]]);
@@ -57,13 +67,16 @@ app.get('/admin', (req, res) => {
 });
 
 
-app.get('/api', (request, response) => {
-
-    question_bank.find({}, (err, data) => {
+app.get('/api/:testid', (request, response) => {
+    
+    console.log("Reqfdfa",request.params.testid);
+    question_bank.find({uid:request.params.testid}, (err, data) => {
         if (err) {
+            console.log("error bhai");
             response.end();
             return;
         }
+        console.log("dotaaaaaaaaaaa",data);
         response.send(randomize(data));
     });
 });
@@ -95,6 +108,7 @@ app.post('/otp', (req, res) => {
 
 
 app.post('/result', (request, response) => {
+    console.log("result inside",request.body);
     const data = request.body;
 
     users_score.insert(data);
@@ -107,9 +121,11 @@ app.post('/add_questions', (request, response) => {
     const data1 = {
         question: data.question,
         options: [data.choices[0], data.choices[1], data.choices[2], data.choices[3]],
-        correctIndex: data.correctindex
+        correctIndex: data.correctindex,
+        user_ques:data.user_ques,
+        uid:data.uid
     }
-
+    console.log("Datraga",data1);
     question_bank.insert(data1);
 });
 

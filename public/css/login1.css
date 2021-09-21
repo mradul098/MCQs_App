@@ -91,6 +91,18 @@ img {
     width: 28vw;
 
 }
+#adminbutton {
+    display: flex;
+    background-color: #00000066;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 56vh;
+    width: 28vw;
+
+}
 
 
 label {
