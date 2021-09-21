@@ -26,7 +26,7 @@ Admin has following rights :
 - [x] Question order shall be shuffled for each candidate appearing
 - [x] Assessment score shall be generated at the time of submission
 ##### Additional
-- 
+- Easy & Simple UI.
 <hr>
 
 #### <u>Tech Stack</u>
