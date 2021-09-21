@@ -3,9 +3,9 @@
 ## <div align=center><u>MCQs-App</u><br>Walkover-final-assignment</div>
 
 #### <u>Intruduction</u>
-This is a web application is made on top of Node.js and Express.js which provide you a platform to host the Multiple choice questions (MCQs) based online test.<br>
+This is a web application is made on top of Node.js and Express.js which provide you a platform to host the Multiple choice questions (MCQs) based online test.<br><br>
  Application provides you to login as a `normal user` or as a `admin`
-> ##### Normal user : `The one who will be giving the online test.` <br> Admin user &nbsp;&nbsp;: `The examiner or the one who wants to host the test.`
+> ##### Normal user : `The one who will be giving the online test.` <br> Admin user &nbsp;&nbsp;: `The examiner or the one who wants to host the test.` <br>
 
 Admin has following rights :
 - Can login after email OTP verification
@@ -36,35 +36,35 @@ Admin has following rights :
 <hr>
 
 #### <u>Collaborators</u>
->[Mayank Choudhary](https://github.com/Mayank151c)
->[Mradul Agrawal](https://github.com/mradul098)
->[Sweeti Gupta](https://github.com/Sweeti-Gupta)
+>[Mayank Choudhary](https://github.com/Mayank151c) <br>
+>[Mradul Agrawal](https://github.com/mradul098)    <br>
+>[Sweeti Gupta](https://github.com/Sweeti-Gupta)   <br>
 <hr>
 
 #### <u>Deployment</u>
 Application is deployed on top of CI/CD pipeline of Heroku platform.
 
-Web-page | Link  
----|---|---
-Live Project|[`Click here`](https://mcqs-app.herokuapp.com/)| 
-Admin-Login |[`Click here`](https://mcqs-app.herokuapp.com/adminLogin.html)
+| Web-page | Link | 
+|   ----   | ---- |
+| Live Project|[`Click here`](https://mcqs-app.herokuapp.com/)| 
+| Admin-Login |[`Click here`](https://mcqs-app.herokuapp.com/adminLogin.html) |
 
 <hr>
 
 #### <u>Project Setup</u>
 Steps to setup and run our project locally on your machine
->1. Install git on your machine if not installed already 
+>1. Install git on your machine if not installed already <br>
 >To install [`click here`](https://git-scm.com/downloads) for Windows or <br>Run command `$ sudo apt-get install git` for Linux
->2. Clone the repository
+>2. Clone the repository <br>
 `git clone https://github.com/Mayank151c/MCQs_App.git`
 >
 >3. Go inside the cloned directory on the terminal.
->4. Install the required packages by command
+>4. Install the required packages by command <br>
 `npm install`
 >
->5. Start local-server by command
+>5. Start local-server by command <br>
 `npm start`
 >
->6. Open any browser and access the web application by following link     `http://localhost:3000/`
+>6. Open any browser and access the web application by following link <br>    `http://localhost:3000/`
 
  
