@@ -14,6 +14,7 @@ body {
     background: url("../img/background.png") no-repeat center;
     color: white;
     background-size: 120% 120vh;
+    overflow: hidden;
 }
 
 #container {
@@ -23,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left:-18rem;
 }
 
 .question-section {
@@ -31,13 +33,16 @@ body {
 }
 
 #heading {
-    font-size: 50px;
+    position:relative;
+    left:10rem;
+    font-size: 3.2rem;
     margin: 20px;
+    margin-top:2rem;
     border: 0;
     padding: 5px;
     width: 100vw;
-    background: rgb(219, 184, 137);
 }
+
 
 .login-section {
     display: flex;
@@ -49,13 +54,18 @@ body {
 
 #main-image {
     width: 55%;
-    height: 100%;
+    height: 90%;
+    margin-top: 1.5rem;
 }
 
 
 #login {
     width: 45%;
     height: 100%;
+}
+#login label{
+    color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -69,7 +79,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     margin-right: 10%;
 }
 
@@ -100,10 +110,39 @@ img {
     border: 1px solid white;
     border-radius: 10px;
     height: 56vh;
-    width: 28vw;
+    width: 100vw;
+    margin-right:5vw;
 
 }
+#admin-button{
+    color:black;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    padding:6px;
+    width:75%;
+    font-size: 1.12rem;
+    border-radius:6px;
+    cursor: pointer;
+    margin-top:2rem;
 
+}
+#test{
+    position: absolute;
+    display: flex;
+    background-color: #00000066;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 56vh;
+    width: 25vw;
+    right:3rem;
+}
+#test-id{
+    margin-top:2rem;
+    /* margin-bottom:0.89rem; */
+ }
 
 label {
     font-size: 1.7em;
@@ -115,8 +154,10 @@ input {
     width: 75%;
     height: 45px;
     border: 0;
-    border-radius: 10px;
-    margin: 1.5em;
+    border-radius: 6px;
+    margin: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.35rem;;
     padding: 10px;
 }
 
@@ -130,20 +171,21 @@ input:active {
 }
 
 
-#submit-button {
-    background: skyblue;
-    width: 100px;
-    padding: 10px;
-    height: 45px;
-    font-size: 20px;
-    border: 0;
-    border-radius: 10px;
+#start-test-button {
+    color:black;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    padding:6px;
+    width:75%;
+    font-size: 1.12rem;
+    border-radius:6px;
+    cursor: pointer;
+    margin-top:2rem;
 }
 
 #submit-button:hover {
     background-color: rgb(86, 191, 223);
 }
-
 /* mobile css */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 1050px) {
