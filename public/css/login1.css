@@ -91,17 +91,29 @@ img {
     width: 28vw;
 
 }
-#adminbutton {
-    display: flex;
-    background-color: #00000066;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    height: 56vh;
-    width: 28vw;
+#admin-button {
+    margin: 1em;
+    padding:5px;
+    background-color:#432374;
+    width:9vw;
+    color: white;
+    border: 1px ;
+    border-radius: 4px;
+    font-size:1rem;
+    cursor: pointer;
 
+}
+
+#start-test-button{
+    margin: 1em;
+    padding:5px;
+    background-color:#432374;
+    width:9vw;
+    color: white;
+    border: 1px ;
+    border-radius: 4px;
+    font-size:1rem;
+    cursor: pointer;
 }
 
 

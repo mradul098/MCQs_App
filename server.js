@@ -4,6 +4,27 @@ const path = require('path');
 const Datastore = require('nedb');
 const { Auth } = require("two-step-auth");
 
+var nodemailer = require('nodemailer');
+
+var val = Math. floor(1000 + Math. random() * 9000);
+
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'mcqappmail@gmail.com',
+    pass: 'walkover123'
+  }
+});
+
+var mailOptions = {
+  from: 'mcqappmail@gmail.com',
+  to: 'mradul8668@gmail.com',
+  subject: 'Sending Email using Node.js',
+  text: `Hi Your login otp is `+val
+  // html: '<h1>Hi Smartherd</h1><p>Your Messsage</p>'        
+};
+
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -52,14 +73,7 @@ function randomize(data1) {
 }
 
 
-async function login(emailId) {
 
-    const res = await Auth(emailId);
-
-    let otp = res.OTP;
-    let status = res.success;
-    return { otp, status };
-}
 
 
 app.get('/admin', (req, res) => {
@@ -68,6 +82,8 @@ app.get('/admin', (req, res) => {
 
 
 app.get('/api/:testid', (request, response) => {
+    question_bank.loadDatabase();
+users_score.loadDatabase();
     
     console.log("Reqfdfa",request.params.testid);
     question_bank.find({uid:request.params.testid}, (err, data) => {
@@ -101,9 +117,23 @@ app.get('/rankings', (request, response) => {
 app.post('/otp', (req, res) => {
     const data = req.body;
 
-    login(data.email).then(res1 => {
-        res.json(res1);
+    // login(data.email).then(res1 => {
+    //     res.json(res1);
+    // });
+    transporter.sendMail({
+        from: 'mcqappmail@gmail.com',
+        to: data.email,
+        subject: 'Sending Email using Node.js',
+        text: `Hi Your login otp is `+val
+        // html: '<h1>Hi Smartherd</h1><p>Your Messsage</p>'        
+      }, function(error, info){
+        if (error) {
+          console.log(error);
+        } else {
+          console.log('Email sent: ' + info.response);
+        }
     });
+    res.json({"otp":val});
 });
 
 

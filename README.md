@@ -57,7 +57,7 @@ Steps to setup and run our project locally on your machine
 >1. Install git on your machine if not installed already <br>
 >To install [`click here`](https://git-scm.com/downloads) for Windows or <br>Run command `$ sudo apt-get install git` for Linux
 >2. Clone the repository <br>
-`git clone https://github.com/Mayank151c/MCQs_App.git`
+`git clone https://github.com/mradul098/MCQs_App.git`
 >
 >3. Go inside the cloned directory on the terminal.
 >4. Install the required packages by command <br>
