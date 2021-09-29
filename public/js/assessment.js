@@ -49,7 +49,7 @@ function interval() {
         timer--;
         if (timer < 0) {
             clearInterval(countdown);
-            window.location.href = "http://localhost:4821/result";
+            window.location.href = "/score.html?u"+limit;
         }
     }, 1000);
 }
