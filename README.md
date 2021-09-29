@@ -67,5 +67,6 @@ Steps to setup and run our project locally on your machine
 `npm start`
 >
 >6. Open any browser and access the web application by following link <br>    `http://localhost:3000/`
+>7.In Local System there wont be credentials for mailing the otp so either give personal mail inside nodemailer to check its working or directly visit http://localhost:3000/adminMainPage.html in order to access admin page
 
  
