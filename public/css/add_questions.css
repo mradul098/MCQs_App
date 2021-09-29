@@ -8,7 +8,7 @@
 }
 
 #container {
-    background: url(https://img.freepik.com/free-photo/background-texture-printed-question-marks_124595-213.jpg?size=626&ext=jpg);
+    background: url("../img/background1.svg");
     width: 100vw;
     height: 100vh;
     display: flex;

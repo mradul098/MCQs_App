@@ -12,7 +12,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'mcqappmail@gmail.com',
-    pass: 'walkover123'
+    pass: process.env.password_mail
   }
 });
 

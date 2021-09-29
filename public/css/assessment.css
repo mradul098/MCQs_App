@@ -38,7 +38,7 @@ body {
     width: 1100px;
     height: 550px;
     border-radius: 25px;
-    background: url(https://img.freepik.com/free-photo/background-texture-printed-question-marks_124595-213.jpg?size=626&ext=jpg);
+    background: url("../img/background1.svg");
     padding: 1em;
     margin-top: 1em;
     display: flex;

@@ -37,6 +37,9 @@ function otp_check(user_otp) {
     if (user_otp == correctotp.otp) {
         window.location.href = '/adminMainPage.html'
     }
+    else{
+        alert("Please Enter valid otp");
+    }
 }
 
 function handleLoginSubmit(event) {
