@@ -13,7 +13,7 @@ Admin has following rights :
 - Decide number of question to be present in test
 - Create Questions pool (pool maybe greater than number of question in test.)
 - Can see the ranks of candidates who has already completed their test
-- Direct access link for test creation : [Link](http://localhost:3000/create_test.html)
+- Direct access link for test creation : [Link](https://walkover-mcqs-app.herokuapp.com/create_test.html)
 - Sample test id - id1632238257404&u3&q5&t145
 <hr>
 
@@ -47,8 +47,8 @@ Application is deployed on top of CI/CD pipeline of Heroku platform.
 
 | Web-page | Link | 
 |   ----   | ---- |
-| Live Project|[`Click here`](https://mcqs-app.herokuapp.com/)| 
-| Admin-Login |[`Click here`](https://mcqs-app.herokuapp.com/adminLogin.html) |
+| Live Project|[`Click here`](https://walkover-mcqs-app.herokuapp.com/)| 
+| Admin-Login |[`Click here`](https://walkover-mcqs-app.herokuapp.com/adminLogin.html) |
 
 <hr>
 
